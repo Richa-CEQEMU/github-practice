@@ -21,7 +21,7 @@ jobs:
   Example_environment_variables:
     needs: Runs_the_Python_Program
     runs-on: ubuntu-latest
-    # if: ${{always()}}
+    if: ${{always()}}
     env: 
       First_name: "Richa"
     steps:
